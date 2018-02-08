@@ -1,0 +1,17 @@
+{
+  "name": "notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.min.js",
+  "scripts": {
+    "bulid": "parcel ./main.js",
+    "start": "parcel ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "push.js": "^1.0.5",
+    "webstomp-client": "^1.2.0"
+  }
+}
